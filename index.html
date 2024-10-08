@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyetisyen Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Diyetisyenim</h1>
+        <nav>
+            <ul>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#yorumlar">Yorumlar</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hakkimda">
+            <h2>Hakkımda</h2>
+            <p>Merhaba! Ben [Adınız], sertifikalı bir diyetisyenim. Sağlıklı yaşam konusunda size yardımcı olmaktan mutluluk duyarım.</p>
+            <img src="profile.jpg" alt="Profil Resmi" class="profile-img">
+        </section>
+
+        <section id="hizmetler">
+            <h2>Hizmetlerim</h2>
+            <div class="service">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Beslenme Danışmanlığı</h3>
+                <p>Sağlıklı beslenme alışkanlıkları kazandırıyoruz.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-weight"></i>
+                <h3>Kilo Kontrol Programları</h3>
+                <p>Hedefinize ulaşmanıza yardımcı oluyoruz.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-running"></i>
+                <h3>Sporcu Beslenmesi</h3>
+                <p>Performansınızı artıracak diyet programları.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-utensils"></i>
+                <h3>Özel Diyet Planları</h3>
+                <p>Bireysel ihtiyaçlarınıza özel planlar.</p>
+            </div>
+        </section>
+
+        <section id="yorumlar">
+            <h2>Müşteri Yorumları</h2>
+            <div class="testimonial">
+                <p>"Çok profesyonel bir hizmet aldım, teşekkürler!"</p>
+                <h4>- Ahmet Y.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Hedefime ulaşmamda büyük yardımcı oldunuz."</p>
+                <h4>- Elif K.</h4>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Yazıları</h2>
+            <article class="blog-post">
+                <h3>Diyetin Önemi</h3>
+                <p>Diyet sağlıklı bir yaşam için vazgeçilmezdir. Beslenme alışkanlıklarımız üzerinde düşünmeliyiz...</p>
+                <a href="#">Devamını Oku</a>
+            </article>
+            <article class="blog-post">
+                <h3>Sağlıklı Beslenme İpuçları</h3>
+                <p>Sağlıklı beslenme, sağlıklı yaşamın temelidir. İşte bazı ipuçları...</p>
+                <a href="#">Devamını Oku</a>
+            </article>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <form id="contactForm">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Diyetisyenim. Tüm hakları saklıdır.</p>
+        <div class="social-media">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
